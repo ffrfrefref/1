@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session d'Assistance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="main-title">Session d'Assistance en Direct</h1>
+      <p class="subtitle">Veuillez suivre les instructions vocales pour résoudre votre problème.</p>
+    </header>
+
+    <section class="instructions">
+      <h2 class="section-title">Instructions</h2>
+      <p>Assurez-vous que votre micro est activé. Cliquez sur le bouton ci-dessous pour lancer la session d'assistance vocale :</p>
+      <button id="start-session" class="cta-button">Démarrer la session</button>
+    </section>
+
+    <section class="session-log">
+      <h2 class="section-title">Journal de la session</h2>
+      <ul id="log" class="log-list"></ul>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Dépannage Informatique - Assistance vocale en temps réel.</p>
+    </footer>
+  </div>
+
+  <script src="stream.js"></script>
+</body>
+</html>
